@@ -14,7 +14,7 @@ body {
 header {
     background-color: #0b1f3a;
     color: #ffffff;
-    padding: 25px;
+    padding: 16px;
     text-align: left;
 }
 
@@ -51,9 +51,24 @@ article h2 {
     margin-top: 0;
 }
 
+article img {
+    display: block;
+    margin: auto;
+}
+
+article h3 {
+    color: black;
+}
+
 article a {
     color: #c62828;
     text-decoration: none;
+}
+
+img {
+    width: 600px;
+    height: 400px;
+    object-fit: cover;
 }
 
 footer {
