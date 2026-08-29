@@ -20,6 +20,8 @@ header {
 
 nav {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     background-color: #c62828;
     padding: 12px;
     text-align: center;
