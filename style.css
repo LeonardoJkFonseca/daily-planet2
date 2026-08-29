@@ -22,21 +22,22 @@ nav {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
     background-color: #c62828;
     padding: 12px;
-    text-align: center;
+    gap: 10px;
 }
 
 nav a {
     color: #ffffff;
     text-decoration: none;
-    margin: 0 15px;
+    margin: 0px;
 }
 
 main {
     max-width: 1000px;
     margin: 30px auto;
-    padding: 0 20px;
+    padding: 0px;
 }
 
 article {
@@ -95,9 +96,6 @@ footer {
     }
     article {
         padding: 15px;
-    }
-    nav a {
-        margin: 0 5px;
     }
      img {
     width: 100%;    /* Ocupa toda a largura da tela do celular */
