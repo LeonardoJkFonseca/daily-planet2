@@ -52,10 +52,10 @@ article h2 {
 }
 
 article img {
-    width: 600px;
-    height: 400px;
-    object-fit: cover;
     display: block;
+    width: 100%;
+    max-width: 600px;
+    height: auto;
     margin: 0 auto 15px auto;
 }
 
@@ -67,16 +67,6 @@ article a {
     color: #c62828;
     text-decoration: none;
 }
-
-/* 1. Como a imagem vai se comportar no Computador */
-img {
-  width: 600px;
-  height: 400px;
-  object-fit: cover; /* Garante que a imagem não fique distorcida */
-  display: block;    /* Remove espaços em branco bobos abaixo da imagem */
-  margin-bottom: 15px; /* Cria um espaço entre a imagem e o título */
-}
-
 
 footer {
     background-color: #0b1f3a;
