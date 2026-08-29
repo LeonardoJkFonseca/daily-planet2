@@ -65,6 +65,15 @@ article a {
     text-decoration: none;
 }
 
+/* 1. Como a imagem vai se comportar no Computador */
+img {
+  width: 600px;
+  height: 400px;
+  object-fit: cover; /* Garante que a imagem não fique distorcida */
+  display: block;    /* Remove espaços em branco bobos abaixo da imagem */
+  margin-bottom: 15px; /* Cria um espaço entre a imagem e o título */
+}
+
 
 footer {
     background-color: #0b1f3a;
@@ -92,11 +101,3 @@ footer {
   }
 }
 
-/* 1. Como a imagem vai se comportar no Computador */
-img {
-  width: 600px;
-  height: 400px;
-  object-fit: cover; /* Garante que a imagem não fique distorcida */
-  display: block;    /* Remove espaços em branco bobos abaixo da imagem */
-  margin-bottom: 15px; /* Cria um espaço entre a imagem e o título */
-}
