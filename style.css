@@ -52,11 +52,13 @@ article h2 {
 }
 
 article img {
+article img {
     width: 600px;
     height: 400px;
     object-fit: cover;
     display: block;
     margin: 0 auto 15px auto; /* Centraliza e cria espaço embaixo */
+}
 }
 
 article h3 {
