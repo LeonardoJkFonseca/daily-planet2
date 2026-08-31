@@ -38,7 +38,7 @@ main {
     padding: 0 20px;
 }
 
-article, section {
+article {
     background-color: white;
     color: #222;
     padding: 20px;
@@ -47,7 +47,7 @@ article, section {
     border-radius: 8px;
 }
 
-article h2, section h2 {
+article h2 {
     margin-top: 0;
 }
 
@@ -63,10 +63,28 @@ article h3 {
     color: black;
 }
 
-article a, section a {
+article a {
     color: #c62828;
     text-decoration: none;
 }
+
+ section  {
+    background-color: white;
+    color: #222;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: left;
+    border-radius: 8px;
+ }
+
+section h2  {
+    margin-top: 0;
+}
+
+ section a {
+    color: #c62828;
+    text-decoration: none;
+ }
 
 footer {
     background-color: #0b1f3a;
